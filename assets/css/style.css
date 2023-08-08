@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+}
+
+h1, h2 {
+    font-family: 'Kreon', serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+/* Home page */
+
+.home-images {
+    width: 100%;
+    height: 100%;
+}
