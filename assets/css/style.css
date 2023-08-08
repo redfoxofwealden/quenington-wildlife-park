@@ -22,12 +22,12 @@ nav {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
+    text-align: center;
 }
 
 nav a {
-    display: block;
     color: inherit;
-    text-align: center;
+    text-decoration-line: none;
 }
 
 main {
@@ -42,8 +42,13 @@ footer {
     color: white;
     font-family: 'Kreon', serif;
     font-weight: 400;
-   font-size: 1.8rem;
+    font-size: 1.8rem;
     text-align: center;
+}
+
+footer a {
+    color: inherit;
+    text-decoration-line: none;
 }
 
 /* Home page */
