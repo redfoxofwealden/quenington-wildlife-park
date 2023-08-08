@@ -7,21 +7,48 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: larger;
-}
-
-h1, h2 {
+header {
+    background: brown;
+    color: yellow;
     font-family: 'Kreon', serif;
     font-weight: 400;
-    font-size: xx-large;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav {
+    background: purple;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+nav a {
+    display: block;
+    color: inherit;
+    text-align: center;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding: .1rem;
+}
+
+footer {
+    background: black;
+    color: white;
+    font-family: 'Kreon', serif;
+    font-weight: 400;
+   font-size: 1.8rem;
+    text-align: center;
 }
 
 /* Home page */
 
 .home-images {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
