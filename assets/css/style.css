@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@600&family=Raleway:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -7,22 +7,33 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Kreon', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+main, nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
 header {
     background: brown;
     color: yellow;
-    font-family: 'Kreon', serif;
-    font-weight: 400;
-    font-size: 2rem;
     text-align: center;
 }
 
 nav {
     background: purple;
     color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
     font-size: 2rem;
-    text-align: center;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: fit-content;
+    list-style: none;
 }
 
 nav a {
@@ -31,8 +42,6 @@ nav a {
 }
 
 main {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
     font-size: 1.6rem;
     padding: .1rem;
 }
@@ -40,10 +49,12 @@ main {
 footer {
     background: black;
     color: white;
-    font-family: 'Kreon', serif;
-    font-weight: 400;
-    font-size: 2rem;
-    text-align: center;
+}
+
+footer ul {
+    margin: 0 auto;
+    width: fit-content;
+    list-style: none;
 }
 
 footer a {
@@ -51,9 +62,38 @@ footer a {
     text-decoration-line: none;
 }
 
-/* Home page */
+/* Home (index.html) */
 
 .home-images {
     width: 100%;
     height: auto;
+}
+
+/* More Info (more-info.html) */
+
+iframe {
+    display: none;
+}
+
+table {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+td {
+    padding-right: 1rem;
+}
+
+#more-info h2 {
+    text-align: center;
+}
+
+#more-info a {
+    display: block;
+    text-align: center;
+}
+
+#contact-us {
+    margin: 0 auto;
+    width: fit-content;
 }
