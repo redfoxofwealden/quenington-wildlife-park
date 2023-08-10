@@ -8,17 +8,14 @@
 }
 
 body {
-    font-family: 'Kreon', serif;
-    font-weight: 600;
-    font-size: 2rem;
-}
-
-main, nav {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
 
 header {
+    font-family: 'Kreon', serif;
+    font-weight: 600;
+    font-size: 2rem;
     background: brown;
     color: yellow;
     text-align: center;
@@ -42,7 +39,7 @@ nav a {
 }
 
 main {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding: .1rem;
 }
 
@@ -67,6 +64,21 @@ footer a {
 .home-images {
     width: 100%;
     height: auto;
+}
+
+/* Gallery (gallery.html) */
+
+.photo-gallery-item {
+    font-size: 1rem;
+}
+
+.photo-gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-gallery-item h2 {
+    text-align: center;
 }
 
 /* More Info (more-info.html) */
