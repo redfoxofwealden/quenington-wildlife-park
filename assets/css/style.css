@@ -46,6 +46,7 @@ main {
 footer {
     background: black;
     color: white;
+    font-size: 2rem;
 }
 
 footer ul {
@@ -79,6 +80,24 @@ footer a {
 
 .photo-gallery-item h2 {
     text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    #gallery {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .photo-gallery-item {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+     .photo-gallery-item {
+        flex-basis: 33%;
+    }
 }
 
 /* More Info (more-info.html) */
