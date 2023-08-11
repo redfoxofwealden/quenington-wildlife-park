@@ -21,19 +21,23 @@ header {
     text-align: center;
 }
 
-nav {
-    background: purple;
+nav, footer {
+    background: black;
     color: white;
     font-size: 2em;
 }
 
-nav ul {
+nav ul, footer ul {
     margin: 0 auto;
     width: fit-content;
     list-style: none;
 }
 
-nav a {
+nav ul li, footer ul li {
+    padding: .2em;
+}
+
+nav a, footer a {
     color: inherit;
     text-decoration-line: none;
 }
@@ -48,20 +52,9 @@ footer {
     font-size: 2em;
 }
 
-footer ul {
-    margin: 0 auto;
-    width: fit-content;
-    list-style: none;
-}
-
-footer a {
-    color: inherit;
-    text-decoration-line: none;
-}
-
 /* Home (index.html) */
 
-#home-page div img {
+#home-page img {
     width: 100%;
     height: auto;
 }
@@ -81,59 +74,66 @@ footer a {
     text-align: center;
 }
 
+/* More Info (more-info.html) */
+
+#more-info div {
+    margin: 1% 0;
+    text-align: center;
+}
+
+#more-info table {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#more-info td {
+    padding-right: 1em;
+}
+
+#location a {
+    color: white;
+    background-color: darkslategray;
+    text-decoration-line: none;
+    padding: .2%;
+}
+
+#contact-us p {
+    width: fit-content;
+    text-align: left;
+    margin: 0 auto;
+}
+
 @media screen and (min-width: 800px) {
  
-    #home-page, #gallery {
+    nav ul li,
+    footer ul li {
+        display: inline;
+    }
+
+    /* Home page and More-Info */
+
+    #home-page, #more-info {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    /* Gallery */
+    
+    #gallery {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
     }
 
-     .home-flex-description-item, .photo-gallery-item {
+    .photo-gallery-item {
         width: 50%;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    
-    /* Home page */
-
-    #home-page {
-        max-width: 1280px;
-        margin: 0 auto;
-    }
-
+       
     /* Gallery */
-     .photo-gallery-item {
+    .photo-gallery-item {
         width: 33%;
     }
-}
-
-/* More Info (more-info.html) */
-
-iframe {
-    display: none;
-}
-
-table {
-    margin: 0 auto;
-    width: fit-content;
-}
-
-td {
-    padding-right: 1rem;
-}
-
-#more-info h2 {
-    text-align: center;
-}
-
-#more-info a {
-    display: block;
-    text-align: center;
-}
-
-#contact-us {
-    margin: 0 auto;
-    width: fit-content;
 }
