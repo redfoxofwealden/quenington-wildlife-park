@@ -15,7 +15,7 @@ body {
 header {
     font-family: 'Kreon', serif;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2em;
     background: brown;
     color: yellow;
     text-align: center;
@@ -24,7 +24,7 @@ header {
 nav {
     background: purple;
     color: white;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 nav ul {
@@ -39,14 +39,13 @@ nav a {
 }
 
 main {
-    font-size: 1.5rem;
-    padding: .1rem;
+    padding: .1em;
 }
 
 footer {
     background: black;
     color: white;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 footer ul {
@@ -62,7 +61,7 @@ footer a {
 
 /* Home (index.html) */
 
-.home-images {
+#home-page div img {
     width: 100%;
     height: auto;
 }
@@ -70,7 +69,7 @@ footer a {
 /* Gallery (gallery.html) */
 
 .photo-gallery-item {
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .photo-gallery-item img {
@@ -83,20 +82,30 @@ footer a {
 }
 
 @media screen and (min-width: 800px) {
-    #gallery {
+ 
+    #home-page, #gallery {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
     }
 
-    .photo-gallery-item {
-        flex-basis: 50%;
+     .home-flex-description-item, .photo-gallery-item {
+        width: 50%;
     }
 }
 
 @media screen and (min-width: 1280px) {
+    
+    /* Home page */
+
+    #home-page {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    /* Gallery */
      .photo-gallery-item {
-        flex-basis: 33%;
+        width: 33%;
     }
 }
 
