@@ -1,39 +1,74 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quenington Wildlife Park
 
-Welcome,
+Quenington Wildlife Park is the website of a **fictitious** wildlife park.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The park has a large forest and a lake. It has a wide variety of birds and animals for the public to see. It has a cafeteria serving drinks and refreshments to the vistors. The park is open everyday from spring to autumn every year.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+The site is targeted towards those who want to see the animals and birds in its natural habitat.
 
-## Codeanywhere Reminders
+**Note:** - the description of the park and its facilities are a complete work of fiction.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Purpose of Website (Features)
 
-`python3 -m http.server`
+The purpose of the website is to promote the wildlife park to the public. It contains information about what animals and birds see, opening times, location of the park, admission prices and contact details.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+**Technologies Used**:  HTML and CSS
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+All the pages have the following:
 
-`http_server`
+- header section at the top of page with the title of the park
+- navigation section underneath the header with links to all the pages
+- main section: contents will depend on which page is displayed
+- footer section at the bottom of the page features links to social media sites: Facebook, Twitter and Instagram
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Header and Navigation Bar
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The header shown below has the title of website and is featured on all the pages of the site. 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![](assets/READme/qwp-header.png)
 
-To log into the Heroku toolbelt CLI:
+The navigation bar has the menu items arranged vertically as shown below. This is to make it easy for user mobile to navigate and menu.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![](assets/READme/qwp-navigation-bar.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+On tablets, laptop, desktops and navigation items are arranged horizontally as shown below.
 
----
+![](assets/READme/qwp-navigation-bar-desktop.png)
 
-Happy coding!
+
+### Home
+
+- image of the woodland and a concise description of the park, what birds and animals the public can see
+- image of cup of tea and a brief description of the café where the vistors can have refreshments
+
+### Gallery
+
+- the list of wild birds and animals that can seen
+
+### More Info
+
+- the opening times of the park and second the admission prices
+- google map showing the location
+- section containing the address and contact details
+
+### Existing Features
+
+## Testing
+
+### Validator Testing
+
+### Unfixed Bugs
+
+## Deployment
+
+## Credits
+
+### Media
+
+- There are 11 images used on the website. All have been taken from [Pexels](https://www.pexels.com/) website.
+- In each img tag used in the website the link to the individual image have been placed in the Alt attribute
+
+### Content
+
+- Ideas for which birds and animals to include in the website have been inspired from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
+-
