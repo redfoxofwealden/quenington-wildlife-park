@@ -21,38 +21,43 @@ header {
     text-align: center;
 }
 
-nav, footer {
-    background: black;
-    color: white;
-    font-size: 2em;
-}
-
-nav ul, footer ul {
-    margin: 0 auto;
-    width: fit-content;
-    list-style: none;
-}
-
-nav ul li, footer ul li {
-    padding: .2em;
-}
-
-nav a, footer a {
-    color: inherit;
-    text-decoration-line: none;
-}
-
-main {
-    padding: .1em;
-}
-
+nav,
 footer {
     background: black;
     color: white;
     font-size: 2em;
 }
 
+nav ul,
+footer ul {
+    margin: 0 auto;
+    width: fit-content;
+    list-style: none;
+}
+
+nav ul li,
+footer ul li {
+    padding: .2em;
+}
+
+nav a:hover,
+footer a:hover {
+    color: black;
+    background: white;
+}
+
+nav a,
+footer a {
+    color: inherit;
+    text-decoration-line: none;
+}
+
 /* Home (index.html) */
+
+#home-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 #home-page img {
     width: 100%;
@@ -76,45 +81,48 @@ footer {
 
 /* More Info (more-info.html) */
 
-#more-info div {
-    margin: 1% 0;
+#more-info {
+    font-size: 1.3em;
+}
+
+.information {
+    margin: 1% auto;
+    max-width: 25em;
+    width: 100%;
+}
+
+.information a {
+    color: inherit;
+    text-decoration-line: none;
+    display: block;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.information table {
+    width: 100%;
+}
+
+.information h2 {
     text-align: center;
 }
 
-#more-info table {
-    width: fit-content;
-    margin: 0 auto;
-}
-
-#more-info td {
-    padding-right: 1em;
-}
-
-#location a {
+.information a:hover {
     color: white;
-    background-color: darkslategray;
-    text-decoration-line: none;
-    padding: .2%;
-}
-
-#contact-us p {
-    width: fit-content;
-    text-align: left;
-    margin: 0 auto;
+    background-color: black;
 }
 
 @media screen and (min-width: 800px) {
  
+    header,
+    nav,
+    footer {
+        padding: .2em 0;
+    }
+    
     nav ul li,
     footer ul li {
         display: inline;
-    }
-
-    /* Home page and More-Info */
-
-    #home-page, #more-info {
-        max-width: 800px;
-        margin: 0 auto;
     }
 
     /* Gallery */
