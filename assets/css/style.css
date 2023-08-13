@@ -54,14 +54,18 @@ footer a {
 
 /* Home (index.html) */
 
-#home-page {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 #home-page img {
     width: 100%;
     height: auto;
+}
+
+.home-container {
+    width: 100%;
+    height: auto;
+}
+
+.home-narrative {
+    margin: 1% 0;
 }
 
 /* Gallery (gallery.html) */
@@ -123,6 +127,30 @@ footer a {
     nav ul li,
     footer ul li {
         display: inline;
+    }
+
+    /* Home page */
+
+    #home-page {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .home-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin: .2em 0;
+    }
+
+    .home-container img {
+        max-width: 50%;
+    }
+
+    .home-narrative {
+        width: 50%;
+        margin: 0;
+        margin-left: .2em;
     }
 
     /* Gallery */
