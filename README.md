@@ -4,11 +4,11 @@ Quenington Wildlife Park is the website of a **fictitious** wildlife park.
 
 The park has a large forest and a lake. It has a wide variety of birds and animals for the public to see. It has animals like the red squirrels and deer, and has variety of birds like chaffinch, crested grebe, common moorhen, eurasian jay and many more. It has a cafeteria serving drinks and refreshments to vistors. The park is open everyday from spring to autumn every year.
 
-The site is targeted towards those who want to see the animals and birds in its natural habitat.
-
 **Note:** - the description of the park and its facilities are a complete work of fiction.
 
-## Purpose of Website (Features)
+## Purpose of Website
+
+The website is targeted towards those who want to see the animals and birds in its natural habitat.
 
 The purpose of the website is to promote and advertise the wildlife park to the general public. It contains information about what animals and birds to see, opening times, location of the park, admission prices and contact details.
 
@@ -27,7 +27,7 @@ On devices with screens wider than 800 pixels on devices such as laptop, desktop
 
 The footer has links to social media sites and as with the navigation bar, links are arranged vertically for screen widths less than 800 pixels and horizontally for wider screens.
 
-### Home (landing page)
+### Home page (landing page)
 
 The purpose of the home page (landing page) is to advertise the wildlife park. It has two paragraphs: the first describes what is here and what to see; the second is about a cafe serving refreshments such as drinks and lunch meals.
 
@@ -35,18 +35,13 @@ The images and text are arranged vertically when displayed on devices screen wid
 
 ### Gallery
 
-The page displays nine images of different species of birds and animals with the description below each image.
-- the list of wild birds and animals that can seen
+The page displays nine images of different species of birds and animals with the description below each. These are displayed below each other on devices with screen width of 800 pixels. On wider screens the images are displayed sise-by-side. On devices with screen widths of 1200 pixels three images can be displayed per row. The technology used to accomplish this is css flex.
 
 ### More Info
 
-The page contains:
-- the opening times of the park
-- the admission prices
-- link to google map showing the location
-- the address and contact details
+The page displays the opening times of the park, the admission prices, has a link to Google maps showing the location and displays the address, telephone number and email address.
 
-### Existing Features
+## Existing Features
 
 ## Testing
 
