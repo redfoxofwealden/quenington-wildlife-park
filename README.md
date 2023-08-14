@@ -18,7 +18,7 @@ The purpose of the website is to promote and advertise the wildlife park to the 
 
 - HTML and CSS
 
-### Header, Navigation Bar and Footer
+### Header - Navigation Bar - Footer
 
 The header, navigation bar and footer is featured throughout the website.  The header has the title of the website.
 
@@ -29,10 +29,13 @@ The footer has links to social media sites and as with the navigation bar, links
 
 ### Home (landing page)
 
-The home page is the landing page and its purpose is to advertise the wildlife park. It has two paragraphs: the first describes what is here and what to see; the second is about a cafe serving refreshments such as drinks and meals.
+The purpose of the home page (landing page) is to advertise the wildlife park. It has two paragraphs: the first describes what is here and what to see; the second is about a cafe serving refreshments such as drinks and lunch meals.
+
+The images and text are arranged vertically when displayed on devices screen width less than 800 pixels. On screen width larger than 800 pixels the images and text are display side-by-side using css flex.
 
 ### Gallery
 
+The page displays nine images of different species of birds and animals with the description below each image.
 - the list of wild birds and animals that can seen
 
 ### More Info
@@ -59,7 +62,7 @@ The page contains:
 
 - The lighthouse report for desktop devices is shown below
 
-![](assets/READme/qwp-lighthouse-report-mobile.png)
+![](assets/READme/qwp-lighthouse-report-desktop.png)
 
 ### Unfixed Bugs
 
@@ -67,12 +70,12 @@ The website has been tested and all known bugs have been found and fixed.
 
 ## Credits
 
-All the code and written paragraphs on this website are of my creation.
+All the code and written content on this website are my own creation.
 
 ### Media
 
-- There are 11 images used on the website. All have been taken from [Pexels](https://www.pexels.com/) website.
-- In each img tag used in the website the link to the individual image have been placed in the Alt attribute
+There are 11 images used on the website. All have been taken from [Pexels](https://www.pexels.com/) website.<br>
+The link to the individual image website have been placed in the Alt attribute of the \<img> tag.
 
 ### Content
 
