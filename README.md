@@ -10,47 +10,26 @@ The site is targeted towards those who want to see the animals and birds in its 
 
 ## Purpose of Website (Features)
 
-The purpose of the website is to promote and advertise the wildlife park to the public. It contains information about what animals and birds to see, opening times, location of the park, admission prices and contact details.
+The purpose of the website is to promote and advertise the wildlife park to the general public. It contains information about what animals and birds to see, opening times, location of the park, admission prices and contact details.
+
+## Design
 
 ### Technologies Used:
 
 - HTML and CSS
 
-All the pages have the following:
+### Header, Navigation Bar and Footer
 
-- header section at the top of page with the title of the park
-- navigation section underneath the header with links to all the pages
-- main section: contents will depend on which page is displayed
-- footer section at the bottom of the page features links to social media sites: Facebook, Twitter and Instagram
+The header, navigation bar and footer is featured throughout the website.  The header has the title of the website.
 
-### Header and Navigation Bar
+The navigation bar has links to all the pages of the website. It has the menu links item arranged vertically for devices with screen widths of less than 800 pixels. This is to make it easy for mobile and tablet users to navigate and tap on the link.
+On devices with screens wider than 800 pixels on devices such as laptop, desktops and navigation items are arranged horizontally.
 
-The header shown below has the title of website and is featured on all the pages of the site. 
+The footer has links to social media sites and as with the navigation bar, links are arranged vertically for screen widths less than 800 pixels and horizontally for wider screens.
 
-![](assets/READme/qwp-header.png)
+### Home (landing page)
 
-The navigation bar has the menu links item arranged vertically as shown below. This is to make it easy for mobile users to navigate and tap on the link menu.
-
-![](assets/READme/qwp-navigation-bar.png)
-
-On devices with screens wider than 800pixels on devices such as tablets, laptop, desktops and navigation items are arranged horizontally as shown below.
-
-![](assets/READme/qwp-navigation-bar-desktop.png)
-
-### Footer
-
-As with the navigation bar, the links on the footer is also arranged vertically.
-
-![](assets/READme/qwp-footer.png)
-
-On tablets, laptop, desktops and navigation items are arranged horizontally as shown below. (800 pixels)
-
-![](assets/READme/qwp-footer-desktop.png)
-
-### Home
-
-- image of the woodland and a concise description of the park, what birds and animals the public can see
-- image of cup of tea and a brief description of the café where the vistors can have refreshments
+The home page is the landing page and its purpose is to advertise the wildlife park. It has two paragraphs: the first describes what is here and what to see; the second is about a cafe serving refreshments such as drinks and meals.
 
 ### Gallery
 
@@ -58,9 +37,11 @@ On tablets, laptop, desktops and navigation items are arranged horizontally as s
 
 ### More Info
 
-- the opening times of the park and second the admission prices
-- google map showing the location
-- section containing the address and contact details
+The page contains:
+- the opening times of the park
+- the admission prices
+- link to google map showing the location
+- the address and contact details
 
 ### Existing Features
 
@@ -72,7 +53,7 @@ On tablets, laptop, desktops and navigation items are arranged horizontally as s
 
 - The style.css file (css) have been tested using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The file has passed the test and errors were found.
 
-- The lighthouse for mobile devices is shown below
+- The lighthouse report for mobile devices is shown below
 
 ![](assets/READme/qwp-lighthouse-report-mobile.png)
 
@@ -82,7 +63,11 @@ On tablets, laptop, desktops and navigation items are arranged horizontally as s
 
 ### Unfixed Bugs
 
+The website has been tested and all known bugs have been found and fixed.
+
 ## Credits
+
+All the code and written paragraphs on this website are of my creation.
 
 ### Media
 
@@ -91,13 +76,10 @@ On tablets, laptop, desktops and navigation items are arranged horizontally as s
 
 ### Content
 
-- Ideas for which birds and animals to include in the website have been inspired from [Wikipedia](https://en.wikipedia.org/).
--
-
 ## Deployment
 
 The website was deployed to GitHub using the steps below
-- From the GitHub account home page, navigate to the quenington-wildlife-park repository
+- from the GitHub account home page, navigate to the quenington-wildlife-park repository
 - on the top navigation bar click on Settings
 - on the left side menu click on Pages
 - from the source section drop-down menu, select the Master Branch
