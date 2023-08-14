@@ -69,8 +69,9 @@ All the code and written content on this website are my own creation.
 
 ### Media
 
-There are 11 images used on the website. All have been taken from [Pexels](https://www.pexels.com/) website.<br>
-The link to the individual image website have been placed in the Alt attribute of the \<img> tag.
+There are 11 images used on the website. All have been taken from [Pexels](https://www.pexels.com/) website. The link to the individual image website have been placed in the Alt attribute of the \<img> tag.
+
+There are 4 icons used for the social media links in the footer - all taken from [Font Awesome](https://fontawesome.com/).
 
 ### Content
 
