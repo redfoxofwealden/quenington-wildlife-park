@@ -12,7 +12,7 @@
       name="keywords"
       content="wildlife, birds, animals, forest, woodland, lake, squirrels, deer"
     />
-    <meta name="author" content="Ian Cameron" />
+    <meta name="author" content="Ian Cameron"/>
 
     <link href="assets/css/style.css" rel="stylesheet">
 
@@ -21,57 +21,62 @@
   <body>
     <header>
       <h1>Quenington Wildlife Park</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </nav>  
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="more-info.html">More Info</a></li>
-      </ul>
-    </nav>
-    <main id="home-page">
-      <div class="home-container">
-        <img
-          src="assets/images/pexels-christine-roy-17491052.jpg"
-          alt="lake with forest in background (https://www.pexels.com/photo/lake-by-the-coniferous-forest-17491052/)"
-        />
-        <div class="home-narrative">
-          <p>
-            Quenington Wildlife Park is an area with woodland and a lake. It has
-            an abundant array of bird and animal wildlife. Open all year round
-            to the public.
-          </p>
+    <main>
+      <div class="column-max-width">
+        <div class="home-container">
+          <img
+            src="assets/images/pexels-christine-roy-17491052.jpg"
+            alt="lake with forest in background (https://www.pexels.com/photo/lake-by-the-coniferous-forest-17491052/)">
+          <section class="home-narrative">
+            <h2>What's Here</h2>
+            <p>
+              Quenington Wildlife Park hosts a wide variety of animals and birds. We are a large wildlife parkarea with woodland and a lake. It has
+              with a butiful scenicforest and a butif lake. We are open everyday from spring to autumn.
+            </p>
+          </section>
         </div>
+        <div class="home-container">
+          <img
+            src="assets/images/pexels-archie-binamira-1187317.jpg"
+            alt="cup of tea in cafe (https://www.pexels.com/photo/red-ceramic-mug-on-red-saucer-1187317/)">
+          <section class="home-narrative">
+            <h2>Cafeteria</h2>
+            <p>
+              There is a cafe here serving hot tea, coffee and other refreshments. We have seats and tables indoors 
+              as well as outdoors.
+            </p>
+          </section>
+        </div>  
       </div>
-      <div class="home-container">
-        <img
-          src="assets/images/pexels-archie-binamira-1187317.jpg"
-          alt="cup of tea in cafe (https://www.pexels.com/photo/red-ceramic-mug-on-red-saucer-1187317/)"
-        />
-        <div class="home-narrative">
-          <p>
-            There is a cafe serving hot tea and coffee and other refreshments.
-          </p>
-        </div>
-      </div>
-    </main>
+      </main>
     <footer>
       <ul>
         <li>Follow us on</li>
         <li>
           <a href="https://www.facebook.com" target="_blank"
-            ><i class="fa-brands fa-facebook"></i> Facebook</a
-          >
+            aria-label="follow us on Facebook (opens in new tab)">
+            <i class="fa-brands fa-facebook"></i>Facebook
+          </a>
         </li>
         <li>
           <a href="https://www.twitter.com" target="_blank"
-            ><i class="fa-brands fa-twitter"></i> Twitter</a
-          >
+            aria-label="follow us on Twitter (opens in new tab)">
+            <i class="fa-brands fa-twitter"></i>Twitter
+          </a>
         </li>
         <li>
           <a href="https://www.instagram.com" target="_blank"
-            ><i class="fa-brands fa-instagram"></i> Instagram</a
-          >
+            aria-label="follow us on Instagram (opens in new tab)">
+            <i class="fa-brands fa-instagram"></i>Instagram
+          </a>
         </li>
       </ul>
     </footer>
