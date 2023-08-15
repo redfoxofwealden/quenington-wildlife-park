@@ -53,11 +53,11 @@ The page displays the opening times of the park, the admission prices, has a lin
 
 - The lighthouse report for mobile devices is shown below
 
-![](assets/READme/qwp-lighthouse-report-mobile.png)
+![The lighthouse report for mobile devices](READme/qwp-lighthouse-report-mobile.png)
 
 - The lighthouse report for desktop devices is shown below
 
-![](assets/READme/qwp-lighthouse-report-desktop.png)
+![The lighthouse report for desktop devices](READme/qwp-lighthouse-report-desktop.png)
 
 ### Unfixed Bugs
 
@@ -78,6 +78,7 @@ There are 4 icons used for the social media links in the footer - all taken from
 ## Deployment
 
 The website was deployed to GitHub using the steps below
+
 - from the GitHub account home page, navigate to the quenington-wildlife-park repository
 - on the top navigation bar click on Settings
 - on the left side menu click on Pages
