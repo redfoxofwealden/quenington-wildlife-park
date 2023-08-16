@@ -6,6 +6,8 @@ The park has a large forest and a lake. It has a wide variety of birds and anima
 
 **Note:** - the description of the park and its facilities are a complete work of fiction.
 
+![am i reponsive](READme/qwp-ami-reponsive.png)
+
 ## Purpose of Website
 
 The website is targeted towards those who want to see the animals and birds in its natural habitat.
