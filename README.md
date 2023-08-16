@@ -12,11 +12,37 @@ The website is targeted towards those who want to see the animals and birds in i
 
 The purpose of the website is to promote and advertise the wildlife park to the general public. It contains information about what animals and birds to see, opening times, location of the park, admission prices and contact details.
 
-## Design
+## Features
 
-### Technologies Used:
+### All Web Pages
 
-- HTML and CSS
+#### The Header
+
+#### Navigation Bar
+
+#### The Footer
+
+### The Home Page (Landing Page)
+
+#### What's Here
+
+#### Cafeteria
+
+### Gallery
+
+### About Us
+
+#### Opening Times
+
+#### Admission Prices
+
+#### Where to Find Us
+
+#### Address
+
+#### Telephone and Email Address
+
+
 
 ### Header - Navigation Bar - Footer
 
@@ -37,7 +63,7 @@ The images and text are arranged vertically when displayed on devices screen wid
 
 The page displays nine images of different species of birds and animals with the description below each. These are displayed below each other on devices with screen width of 800 pixels. On wider screens the images are displayed sise-by-side. On devices with screen widths of 1200 pixels three images can be displayed per row. The technology used to accomplish this is css flex.
 
-### More Info
+### About Us
 
 The page displays the opening times of the park, the admission prices, has a link to Google maps showing the location and displays the address, telephone number and email address.
 
@@ -63,18 +89,6 @@ The page displays the opening times of the park, the admission prices, has a lin
 
 The website has been tested and all known bugs have been found and fixed.
 
-## Credits
-
-All the code and written content on this website are my own creation.
-
-### Media
-
-There are 11 images used on the website. All have been taken from [Pexels](https://www.pexels.com/) website. The link to the individual image website have been placed in the Alt attribute of the \<img> tag.
-
-There are 4 icons used for the social media links in the footer - all taken from [Font Awesome](https://fontawesome.com/).
-
-### Content
-
 ## Deployment
 
 The website was deployed to GitHub using the steps below
@@ -87,3 +101,16 @@ The website was deployed to GitHub using the steps below
 After the master branch has been selected, the page will be deployed after a few minutes.
 
 The website is now deployed and is at [redfoxofwealden.github.io/quenington-wildlife-park/](https://redfoxofwealden.github.io/quenington-wildlife-park/)
+
+## Credits
+
+All the code and written content on this website are my own creation.
+
+### Media
+
+There are 11 images used on the website. All have been taken from [Pexels](https://www.pexels.com/) website. The link to the individual image website have been placed in the Alt attribute of the \<img> tag.
+
+There are 4 icons used for the social media links in the footer - all taken from [Font Awesome](https://fontawesome.com/).
+
+### Content
+
