@@ -10,7 +10,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    background: black;
 }
 
 header h1 {
@@ -25,9 +24,8 @@ header h1 {
 
 nav,
 footer {
-    background: #222;
+    background: #333;
     color: white;
-    font-size: 2em;
     padding: .2em 0;
 }
 
@@ -39,7 +37,8 @@ footer ul {
 
 nav ul li,
 footer ul li {
-    padding: .5em;
+    font-size: 2em;
+    padding: .2em;
 }
 
 nav a:hover,
@@ -54,14 +53,12 @@ footer a {
     text-decoration-line: none;
 }
 
-main {
-    background: white;
-}
-
 /* Home (index.html) */
 
 .column-max-width {
-    padding: .1em 0;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .home-container {
@@ -74,7 +71,7 @@ main {
 }
 
 .home-narrative {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: .2em 0;
 }
 
@@ -85,7 +82,9 @@ main {
 /* Gallery (gallery.html) */
 
 #gallery {
-    padding: 1% 0;
+    padding: .2em 0;
+    margin-left: .2em;
+    margin-right: .2em;
 }
 
 .photo-gallery-item {
@@ -101,11 +100,10 @@ main {
     text-align: center;
 }
 
-/* More Info (more-info.html) */
+/* About Us (about-us.html) */
 
-#more-info {
-    font-size: 1.2em;
-    padding: 1% 0;
+#about-us {
+    font-size: 1.3em;
 }
 
 .information {
@@ -136,25 +134,30 @@ main {
 }
 
 @media screen and (min-width: 800px) {
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+    }
     
     nav ul li,
     footer ul li {
         display: inline;
     }
 
-    /* Home page */
+    main {
+        margin-bottom: 8%;
+    }
 
-    .column-max-width {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 1% 0;
-     }
+    /* Home page */
 
     .home-container {
         display: flex;
         flex-flow: row nowrap;
         padding: 2% 0;
-     }
+    }
 
     .home-container img {
         max-width: 50%;
@@ -167,7 +170,7 @@ main {
     }
 
     /* Gallery */
-    
+
     #gallery {
         display: flex;
         flex-flow: row wrap;
@@ -182,7 +185,7 @@ main {
 }
 
 @media screen and (min-width: 1280px) {
-       
+
     /* Gallery */
 
     .photo-gallery-item {
