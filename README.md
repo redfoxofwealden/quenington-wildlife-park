@@ -16,7 +16,7 @@ The purpose of the website is to promote and advertise the wildlife park to the 
 
 The website is designed so that it can be displayed on smartphones, tablets, laptop and desktops. The screen width is capped at maximum display of 1200 pixels on the 'Home' page (landing page) and the 'About Us' page. This is ensure that the contents stay within the central vision of the user on wide screen devices, thus making it easier for the user to consume.
 
-### All Web Pages
+### Features
 
 #### The Header
 
@@ -36,11 +36,13 @@ On devices with screens wider than 800 pixels on devices such as laptop, desktop
 
 #### The Footer
 
-The footer has links to social media sites and, links are arranged vertically for screen widths less than 800 pixels for devices like smartphones and tablets.
+The footer has links to social media sites. It allows the user to follow and keep up with events at the wildlife park.
+
+The footer has links are arranged vertically for screen widths less than 800 pixels for devices like smartphones and tablets as shown below.
 
 ![footer as displayed on mobile devices](READme/qwp-footer.png)
 
-For screen widths of 800 pixels or more for devices like laptops and desktops, the menu items are arranged horizontally as shown below.
+For screen widths of 800 pixels or more for devices like laptops and desktops, the menu items are arranged horizontally as shown below. Also the footer is fixed to the bottom viewport in the browser.
 
 ![footer as displayed on desktop devices](READme/qwp-footer-desktop.png)
 
@@ -54,11 +56,7 @@ The images and text are arranged vertically when displayed on devices screen wid
 
 #### What's Here
 
-'What's Here' purpose is to advertise the wildlife park to the public. It describes what can be seen here when the park is open.
-
-For devices with screen widths less than 800 pixels, such as on smartphones and tablets, the text is displayed beneath the image.
-
-For devices with screen widths 800 pixels or wider, such as on smarlaptops or desktop pcs, the text is displayed beside the image.
+'What's Here' purpose is to advertise the wildlife park to the public. It describes what can be seen here when the park is open. The text is displayed beneath the image for devices with screen widths less than 800 pixels, such as on smartphones and tablets. For wider screen widths for laptops or desktop pcs the text is displayed beside the image so that all the information is displayed on screen and the user doesn't have to scroll.
 
 #### Cafeteria
 
@@ -72,23 +70,29 @@ For devices with screen widths 800 pixels or wider such as on, smarlaptops or de
 
 Link to [Gallery Page](https://redfoxofwealden.github.io/quenington-wildlife-park/gallery.html)
 
-The page displays nine images of different species of birds and animals with the description below each. These are displayed below each other on devices with screen width of less than 800 pixels. On wider screens 800 pixels or wider, two images are displayed per row. On devices with screen widths of 1200 pixels, three images are displayed per row. The technology used to accomplish this is css flex.
+The page displays nine images of different species of birds and animals with the description below each. It shows a sample of what birds or animals to see here. These are displayed below each other on devices with screen width of less than 800 pixels. On wider screens 800 pixels or wider, two images are displayed per row. On devices with screen widths of 1200 pixels, three images are displayed per row. The technology used to accomplish this is css flex.
 
 ### About Us
 
 Link to [About Us](https://redfoxofwealden.github.io/quenington-wildlife-park/about-us.html)
 
-The page displays the opening times of the park, the admission prices, has a link to Google maps showing the location and displays the address, telephone number and email address.
+The 'About Us' page displays the following sections:
 
-#### Opening Times
+- Opening Times
+- Admission Prices
+- 'Where to Find Us' has a link to Google maps showing the location
+- Telephone and email address
 
-#### Admission Prices
+## Testing
 
-#### Where to Find Us
+home page flex instead of float
 
-#### Address
+first attemp was to css flex getting footer fixed, fixed the position of footerand not obscure the contents
 
-#### Telephone and Email Address
+getting 
+
+tested browsers like chrome, firefox
+
 
 ### Validator Testing
 
@@ -145,7 +149,7 @@ The website is now deployed and is at [redfoxofwealden.github.io/quenington-wild
 
 ### Content
 
-The inspiration of the website was taken from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) site.
+The inspiration for the website was taken from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) site.
 
 The know-how and information for the css flex technology used on the 'Home' and 'Gallery' pages were inspired and taken from these articles:
 
