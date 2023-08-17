@@ -1,12 +1,10 @@
 # Quenington Wildlife Park
 
+![am i reponsive](READme/qwp-ami-reponsive.png)
+
 Quenington Wildlife Park is the website of a **fictitious** wildlife park.
 
 The park has a large forest and a lake. It has a wide variety of birds and animals for the public to see. It has animals like the red squirrels and deer, and has variety of birds like chaffinch, crested grebe, common moorhen, eurasian jay and many more. It has a cafeteria serving drinks and refreshments to vistors. The park is open everyday from spring to autumn every year.
-
-**Note:** - the description of the park and its facilities are a complete work of fiction.
-
-![am i reponsive](READme/qwp-ami-reponsive.png)
 
 ## Purpose of Website
 
@@ -20,9 +18,19 @@ The purpose of the website is to promote and advertise the wildlife park to the 
 
 #### The Header
 
+![header with website title](READme/qwp-header.png)
+
 #### Navigation Bar
 
+![navigation bar as displayed on desktop devices](READme/qwp-nav-desktop.png)
+
+![navigation bar as displayed on mobile devices](READme/qwp-nav-mobile.png)
+
 #### The Footer
+
+![footer as displayed on desktop devices](READme/qwp-footer-desktop.png)
+
+![footer as displayed on mobile devices](READme/qwp-footer.png)
 
 ### The Home Page (Landing Page)
 
@@ -79,13 +87,33 @@ The page displays the opening times of the park, the admission prices, has a lin
 
 - The style.css file (css) have been tested using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The file has passed the test and errors were found.
 
-- The lighthouse report for mobile devices is shown below
+### Lighthouse report
 
-![The lighthouse report for mobile devices](READme/qwp-lighthouse-report-mobile.png)
+The lighthouse report has been generated for following pages:-
 
-- The lighthouse report for desktop devices is shown below
+#### Home page for desktop devices
 
-![The lighthouse report for desktop devices](READme/qwp-lighthouse-report-desktop.png)
+![lighthouse report for desktop devices](READme/qwp-lighthouse-report-desktop-index.png)
+
+#### Home page for mobile devices
+
+![lighthouse report for desktop devices](READme/qwp-lighthouse-report-mobile-index.png)
+
+#### Gallery page for desktop devices
+
+![lighthouse report for gallery page on desktop devices](READme/qwp-lighthouse-report-desktop-gallery.png)
+
+#### Gallery page for mobile devices
+
+![lighthouse report for gallery page on mobile devices](READme/qwp-lighthouse-report-mobile-gallery.png)
+
+#### About Us page for desktop devices
+
+![lighthouse report for about us page on desktop devices](READme/qwp-lighthouse-report-desktop-about-us.png)
+
+#### About Us page for mobile devices
+
+![lighthouse report for about us page on mobile devices](READme/qwp-lighthouse-report-mobile-about-us.png)
 
 ### Unfixed Bugs
 
@@ -98,9 +126,9 @@ The website was deployed to GitHub using the steps below
 - from the GitHub account home page, navigate to the quenington-wildlife-park repository
 - on the top navigation bar click on Settings
 - on the left side menu click on Pages
-- from the source section drop-down menu, select the Master Branch
+- from the source section drop-down menu, select the Main branch
 
-After the master branch has been selected, the page will be deployed after a few minutes.
+After the main branch has been selected, the page will be deployed after a few minutes.
 
 The website is now deployed and is at [redfoxofwealden.github.io/quenington-wildlife-park/](https://redfoxofwealden.github.io/quenington-wildlife-park/)
 
