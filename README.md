@@ -46,13 +46,39 @@ For screen widths of 800 pixels or more for devices like laptops and desktops, t
 
 ### The Home Page (Landing Page)
 
+Link to [Home Page](https://redfoxofwealden.github.io/quenington-wildlife-park/index.html)
+
+The purpose of the home page (landing page) is to advertise the wildlife park. It has two sections, each with an image.: the first describes what is here and what to see; the second is about a cafe serving refreshments such as drinks and lunch meals.
+
+The images and text are arranged vertically when displayed on devices screen width less than 800 pixels. On screen width larger than 800 pixels the images and text are display side-by-side using css flex.
+
 #### What's Here
+
+'What's Here' purpose is to advertise the wildlife park to the public. It describes what can be seen here when the park is open.
+
+For devices with screen widths less than 800 pixels, such as on smartphones and tablets, the text is displayed beneath the image.
+
+For devices with screen widths 800 pixels or wider, such as on smarlaptops or desktop pcs, the text is displayed beside the image.
 
 #### Cafeteria
 
+'Cafeteria' purpose is to advertise the wildlife park's refreshment facility to the public.
+
+For devices with screen widths less than 800 pixels such as on, smartphones and tablets, the text is displayed beneath the image.
+
+For devices with screen widths 800 pixels or wider such as on, smarlaptops or desktop pcs, the text is displayed beside the image. The technology used to accomplish this is css flex.
+
 ### Gallery
 
+Link to [Gallery Page](https://redfoxofwealden.github.io/quenington-wildlife-park/gallery.html)
+
+The page displays nine images of different species of birds and animals with the description below each. These are displayed below each other on devices with screen width of less than 800 pixels. On wider screens 800 pixels or wider, two images are displayed per row. On devices with screen widths of 1200 pixels, three images are displayed per row. The technology used to accomplish this is css flex.
+
 ### About Us
+
+Link to [About Us](https://redfoxofwealden.github.io/quenington-wildlife-park/about-us.html)
+
+The page displays the opening times of the park, the admission prices, has a link to Google maps showing the location and displays the address, telephone number and email address.
 
 #### Opening Times
 
@@ -63,22 +89,6 @@ For screen widths of 800 pixels or more for devices like laptops and desktops, t
 #### Address
 
 #### Telephone and Email Address
-
-### Home page (landing page)
-
-The purpose of the home page (landing page) is to advertise the wildlife park. It has two paragraphs: the first describes what is here and what to see; the second is about a cafe serving refreshments such as drinks and lunch meals.
-
-The images and text are arranged vertically when displayed on devices screen width less than 800 pixels. On screen width larger than 800 pixels the images and text are display side-by-side using css flex.
-
-### Gallery
-
-The page displays nine images of different species of birds and animals with the description below each. These are displayed below each other on devices with screen width of 800 pixels. On wider screens the images are displayed sise-by-side. On devices with screen widths of 1200 pixels three images can be displayed per row. The technology used to accomplish this is css flex.
-
-### About Us
-
-The page displays the opening times of the park, the admission prices, has a link to Google maps showing the location and displays the address, telephone number and email address.
-
-## Testing
 
 ### Validator Testing
 
@@ -137,7 +147,7 @@ The website is now deployed and is at [redfoxofwealden.github.io/quenington-wild
 
 The inspiration of the website was taken from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) site.
 
-The know-how for the css flex technology used on the 'Home' and 'Gallery' pages were inspired and taken from these articles:
+The know-how and information for the css flex technology used on the 'Home' and 'Gallery' pages were inspired and taken from these articles:
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flexbox on MDN site](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
@@ -153,4 +163,4 @@ There are 11 images used on the website. All have been taken from [Pexels](https
 
 There are 4 icons used for the social media links in the footer - all taken from [Font Awesome](https://fontawesome.com/).
 
-The two fonts used in the website, Kreon and Raleway, are taken from [Google Fonts](https://fonts.google.com/).
+The two fonts used in the website, Kreon and Raleway, were taken from [Google Fonts](https://fonts.google.com/).
