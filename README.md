@@ -14,7 +14,7 @@ The purpose of the website is to promote and advertise the wildlife park to the 
 
 ## Design
 
-The website is designed so that it can be displayed on smartphones, tablets, laptop and desktops. The screen width is capped at maximum display of 1200 pixels on the 'Home' page (landing page) and the 'About Us' page. This is ensure that the contents stay within the central vision of the user on wide screen devices, thus making it easier for the user to consume.
+The website is designed so that it can be displayed on smartphones, tablets, laptop and desktops. The screen width is capped at maximum display of 1200 pixels on the 'Home' page (landing page) and the 'About Us' page. This is ensure that the contents stay within the central vision of the user on wide screen devices, thus making it easier for the user to read. On devices with screen widths of 800 pixels or more the menu items on the navigation bar and the social links on footer are displayed horizontally. This is done create as much space on the screen to display as much information as possible.
 
 ### Features
 
@@ -26,7 +26,7 @@ The header is featured on all the web pages, and has the title of the website.
 
 #### Navigation Bar
 
-The navigation bar is featured on all the webpages, and has links to all the pages of the website. It has the menu links item arranged vertically for devices with screen widths of less than 800 pixels. This is to make it easy for mobile and tablet users to navigate and tap on the link. The screen shot below shows the arrangement of menu items that is displayed on devices such as smartphone and tablets.
+The navigation bar is featured throughout the site, and has links to all the pages of the website. It has the menu items arranged vertically for devices with screen widths of less than 800 pixels. This is to make it easy for mobile and tablet users to navigate and tap on the link. The screen shot below shows the arrangement of menu items that is displayed on devices such as smartphone and tablets.
 
 ![navigation bar as displayed on mobile devices](READme/qwp-nav-mobile.png)
 
@@ -42,7 +42,7 @@ The footer has links are arranged vertically for screen widths less than 800 pix
 
 ![footer as displayed on mobile devices](READme/qwp-footer.png)
 
-For screen widths of 800 pixels or more for devices like laptops and desktops, the menu items are arranged horizontally as shown below. Also the footer is fixed to the bottom viewport in the browser.
+For screen widths of 800 pixels or more for devices like laptops and desktops, the menu items are arranged horizontally as shown below. Also the footer is fixed to the bottom of the screen in the browser.
 
 ![footer as displayed on desktop devices](READme/qwp-footer-desktop.png)
 
@@ -50,7 +50,7 @@ For screen widths of 800 pixels or more for devices like laptops and desktops, t
 
 Link to [Home Page](https://redfoxofwealden.github.io/quenington-wildlife-park/index.html)
 
-The purpose of the home page (landing page) is to advertise the wildlife park. It has two sections, each with an image.: the first describes what is here and what to see; the second is about a cafe serving refreshments such as drinks and lunch meals.
+The purpose of the home page (landing page) is to advertise the wildlife park. It has two sections, each with an image: the first describes what is here and what to see; the second is about a cafe serving refreshments such as drinks and lunch meals.
 
 The images and text are arranged vertically when displayed on devices screen width less than 800 pixels. On screen width larger than 800 pixels the images and text are display side-by-side using css flex.
 
@@ -93,7 +93,7 @@ No major bugs were found during development. However there were twoissues that w
 The first attempt to move the texts beside the image using css float did not work out: the texts ended up pack together at the top. So to correct this css flex had to be used instead.
 
 **Footer**
-The first attempt to fix the footer to the bottom of the screen using css flex was not successful. There was gap between the footer and bottom of the screen.  This was fixed using css fixed position.
+The first attempt to fix the footer to the bottom of the screen using css flex was not successful. There was gap between the footer and bottom of the screen.  This was corrected using css fixed position.
 
 ### Validator Testing
 
