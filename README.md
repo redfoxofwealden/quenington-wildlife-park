@@ -85,14 +85,15 @@ The 'About Us' page displays the following sections:
 
 ## Testing
 
-home page flex instead of float
+The website was tested using Google Chrome and Firefox after it was deployed to GitHub.
+No major bugs were found during development. However there were twoissues that were encountered.
 
-first attemp was to css flex getting footer fixed, fixed the position of footerand not obscure the contents
+**Home Page**
 
-getting 
+The first attempt to move the texts beside the image using css float did not work out: the texts ended up pack together at the top. So to correct this css flex had to be used instead.
 
-tested browsers like chrome, firefox
-
+**Footer**
+The first attempt to fix the footer to the bottom of the screen using css flex was not successful. There was gap between the footer and bottom of the screen.  This was fixed using css fixed position.
 
 ### Validator Testing
 
